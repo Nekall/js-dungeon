@@ -9,6 +9,9 @@ class Character {
 
   takeDamage(dmgReceived){
     this.hp = this.hp - dmgReceived;
+    if(this.hp < 0){
+      this.hp = 0;
+    }
   }
 
   dealDamage(victim){
