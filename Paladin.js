@@ -6,5 +6,6 @@ Le Paladin aura une attaque spéciale Healing Lighting, infligeant 4 dégâts et
 class Paladin extends Character {
   constructor(name = "Ulder", hp = 16, mana = 160, dmg = 3) {
     super(name, hp, mana, dmg)
+    this.nameClass = "paladin 🩹";
   }
 }

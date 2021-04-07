@@ -8,5 +8,6 @@ ses attaques infligeront 4 + 2 = 6 points de dégât).
 class Berzerker extends Character {
   constructor(name = "Draven", hp = 8, mana = 0, dmg = 4) {
     super(name, hp, mana, dmg)
+    this.nameClass = "berzerker 🛡️";
   }
 }
