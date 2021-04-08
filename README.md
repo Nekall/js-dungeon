@@ -9,71 +9,72 @@ Or take a suspicious potion.
 
 The suspicious potion is a potion with random effects on the damage points and the life points of the character who drinks it. 
 Taking this potion uses one turn.
+<br>
+**Il y a 7 personnages différents : **<br>
+<br>
+🙏 Monk<br>
+HP: 8<br>
+Mana: 200<br>
+Basic damage: 2<br>
+✨Special Attack:<br>
+Heal:<br>
+  1 damage<br>
+  7 life points<br>
+  cost: 25 mana<br>
 
-**Il y a 7 personnages différents : **
-
-🙏 Monk
-HP: 8
-Mana: 200
-Basic damage: 2
-✨Special Attack:
-Heal:
-  1 damage
-  7 life points
-  cost: 25 mana
-
-🩹 Paladin
-HP: 16
-Mana: 160
-Basic damage: 3
-✨Special Attack:
-Healing Lighting:
-  4 damage
-  5 life points
-  cost: 40 mana
-
-🛡️ Berzerker
-HP: 8
-Mana: 0
-Basic damage: 4
-✨Special Attack:
- Rage:
-  +1 damage
-  -1 life points
-
-🗡️ Assassin
-HP: 6
-Mana: 20
-Basic damage: 6
-✨Special Attack:
- Shadow hit:
-  7 damage
-  cost: 20 mana
-
-🥊 Fighter
-HP: 12
-Mana: 40
-Basic damage: 4
-✨Special Attack:
- Dark Vision:
-  5 damage
-  cost: 20 mana
-
-🧙 Wizard
-HP: 10
-Mana: 200
-Basic damage: 2
-✨Special Attack:
- Fireball:
-  7 damage
-  cost: 25 mana
-
-😈 Demon
-HP: 8
-Mana: 30
-Basic damage: 5
-✨Special Attack:
- Living Nightmare:
-  decreases the target's
-  damage points by 1
-  cost: 20 mana
+🩹 Paladin<br>
+HP: 16<br>
+Mana: 160<br>
+Basic damage: 3<br>
+✨Special Attack:<br>
+Healing Lighting:<br>
+  4 damage<br>
+  5 life points<br>
+  cost: 40 mana<br>
+<br>
+🛡️ Berzerker<br>
+HP: 8<br>
+Mana: 0<br>
+Basic damage: 4<br>
+✨Special Attack:<br>
+ Rage:<br>
+  +1 damage<br>
+  -1 life points<br>
+<br>
+🗡️ Assassin<br>
+HP: 6<br>
+Mana: 20<br>
+Basic damage: 6<br>
+✨Special Attack:<br>
+ Shadow hit:<br>
+  7 damage<br>
+  cost: 20 mana<br>
+<br>
+🥊 Fighter<br>
+HP: 12<br>
+Mana: 40<br>
+Basic damage: 4<br>
+✨Special Attack:<br>
+ Dark Vision:<br>
+  5 damage<br>
+  cost: 20 mana<br>
+<br>
+🧙 Wizard<br>
+HP: 10<br>
+Mana: 200<br>
+Basic damage: 2<br>
+✨Special Attack:<br>
+ Fireball:<br>
+  7 damage<br>
+  cost: 25 mana<br>
+<br>
+😈 Demon<br>
+HP: 8<br>
+Mana: 30<br>
+Basic damage: 5<br>
+✨Special Attack:<br>
+ Living Nightmare:<br>
+  decreases the target's<br>
+  damage points by 1<br>
+  cost: 20 mana<br>
+<br>
