@@ -1,4 +1,5 @@
-#JavaScript Dungeon<br>
+##JS-Dungeon ⚔️<br>
+(Click on Start and everything is in the terminal)<br>
 <br>
 **How does the game play ?**<br>
 <br>
