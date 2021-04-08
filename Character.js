@@ -43,10 +43,10 @@ class Character {
     let effect = [1, 2].sample();
     if(effect == 1) {
       this.dmg = this.dmg + power;
-      console.log(`${power} point(s) on the damage points`);
+      console.log(`🧪 ${power} point(s) on the damage points`);
     } else {
       this.hp = this.hp + power;
-      console.log(`${power} point(s) on the life points`);
+      console.log(`🧪 ${power} point(s) on the life points`);
     }
     console.log(`...${this.name} now has ${this.hp} life points, ${this.mana} mana points, ${this.dmg} damage points.`);
   }
