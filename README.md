@@ -1,5 +1,6 @@
 **JS-Dungeon ⚔️**<br>
 (Click on Start and everything is in the terminal)<br>
+**The features written in red on the homepage will be added in the future.**<br>
 <br>
 **How does the game play ?**<br>
 <br>
