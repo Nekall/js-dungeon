@@ -5,17 +5,51 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
+    <h1 class="title">JS-Dungeon ⚔️</h1>
+    <h2 class="leadhead">(everything is in the terminal)</h2>
     <div class="grid-container presentation">
-      <div class="left">
-        <p>🧙 Monk</p>
-        <p>🩹 Paladin</p>
-        <p>🛡️ Berzerker</p>
-        <p>🗡️ Assassin</p>
-        <p>🥊 Fighter</p>
+      <div class="Monk bg">
+      <p>🧙 Monk</p>
+      <hr>
+      <p>HP: 8</p>
+      <p>Mana: 200</p>
+      <p>Basic damage: 2</p>
+      <p>Special Attack:</p>
       </div>
-      <div class="middle">
-        <input id="clickme" type="button" value="Start" onclick="startGame();" />
+      <div class="Paladin bg ">
+        <p>🩹 Paladin</p>
+        <hr>
+        <p>HP: 16</p>
+        <p>Mana: 160</p>
+        <p>Basic damage: 3</p>
+        <p>Special Attack:</p>
+      </div>
+      <div class="Berzerker bg">
+        <p>🛡️ Berzerker</p>
+        <hr>
+        <p>HP: 8</p>
+        <p>Mana: 0</p>
+        <p>Basic damage: 4</p>
+        <p>Special Attack:</p>
+      </div>
+      <div class="Assassin bg">
+        <p>🗡️ Assassin</p>
+        <hr>
+        <p>HP: 6</p>
+        <p>Mana: 20</p>
+        <p>Basic damage: 6</p>
+        <p>Special Attack:</p>
+      </div>
+      <div class="Fighter bg">
+        <p>🥊 Fighter</p>
+        <hr>
+        <p>HP: 12</p>
+        <p>Mana: 40</p>
+        <p>Basic damage: 4</p>
+        <p>Special Attack:</p>
+      </div>
+      <div class="c">
+        <button class="btn" id="clickme" type="button" value="Start" onclick="startGame();"> START </button>
       </div>
     </div>
   </body>
@@ -33,6 +67,6 @@
   <script src="Game.js"></script>
   <script src="Turn.js"></script>
 
-  <!--Test and PreSetup-->
+  <!--Process-->
   <script src="main.js"></script>
 </html>

@@ -1,10 +1,3 @@
-/*1 tour précisement déconstruit
-Ce perso doit attaquer, le joueur choisis une cible ?
-La cible prend des damages, sont état est
-confirmée par l'affichage de des hp (mort ou pas)
-*/
-
-
 class Turn extends Game {
   constructor(turnLeft) {
     super(turnLeft)
@@ -15,14 +8,36 @@ class Turn extends Game {
     let arrayCharacters = ["grace", "carl", "ulder", "moana", "draven"];
     arrayCharacters.forEach((warrior) => {
       warrior = eval(warrior);
-      console.log(`Your current fighter is : ${warrior.name}`);
-      let victim;
-      while (typeof victim == "undefined" || !arrayCharacters.includes(victim) || eval(victim) == warrior || eval(victim).status == "dead"){
-        victim = window.prompt(`What is your target ? \n grace, carl, ulder, moana, draven`)
+      if(warrior.status != "dead"){
+        console.log(`Your current fighter is : ${warrior.name}`);
+        let victim;
+        let potion;
+        while (typeof victim == "undefined" || !arrayCharacters.includes(victim) || eval(victim) == warrior || eval(victim).status == "dead"){
+          victim = window.prompt(`What is your target ? \n • grace \n • carl \n • ulder \n • moana \n • draven \n\n Or you can choose to drink a suspicious potion: 🧪 \n • potion`)
+          if(victim == "potion"){
+            potion = true;
+            break;
+          } else {
+            potion = false;
+          }
+        }
+        if(potion == true){
+          console.log("Bam la potion !");
+          warrior.takePotion()
+        } else {
+          victim = eval(victim);
+          if(warrior.mana > warrior.specialMana){
+            let answer = window.prompt(`Do you want to use your attack special ? \n • yes ?`)
+            if(answer.toLowerCase() === "yes"){
+              victim.takeDamage((warrior.dmg + warrior.specialDmg));
+              warrior.dealSpecialAttack(victim);
+            } else {
+              victim.takeDamage(warrior.dmg);
+              warrior.dealDamage(victim);
+            }
+          }
+        }
       }
-      victim = eval(victim);
-      victim.takeDamage(warrior.dmg);
-      warrior.dealDamage(victim);
     });
   }
 }

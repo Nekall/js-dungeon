@@ -1,10 +1,15 @@
-var game = new Game();
+const game = new Game();
 
-var grace = new Fighter();
-var carl = new Assassin();
-var draven = new Berzerker();
-var moana = new Monk();
-var ulder = new Paladin();
+const grace = new Fighter();
+const carl = new Assassin();
+const draven = new Berzerker();
+const moana = new Monk();
+const ulder = new Paladin();
+
+
+Array.prototype.sample = function() {
+  return this[~~(Math.random() * this.length)];
+}
 
 function finalMessage(){
   console.log("Winner is :");
@@ -14,17 +19,14 @@ function finalMessage(){
       console.log(warrior.name);
     }
   });
-
 }
 
 
 function startGame(){
-
   game.firstInstructions();
   const turn = new Turn();
-
   while(true){
-    if(game.turnLeft == 8){
+    if(game.turnLeft == 0){
       let arrayCharacters = [grace, carl, ulder, moana, draven];
       arrayCharacters.forEach((warrior) => {
         if(warrior.status == "playing"){
@@ -33,7 +35,6 @@ function startGame(){
       });
       break;
     }
-
     turn.startTurn();
     game.newTurn();
   }
