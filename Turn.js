@@ -22,19 +22,21 @@ class Turn extends Game {
           }
         }
         if(potion == true){
-          console.log("Bam la potion !");
           warrior.takePotion()
-        } else {
+        } else{
           victim = eval(victim);
-          if(warrior.mana > warrior.specialMana){
-            let answer = window.prompt(`Do you want to use your attack special ? \n • yes ?`)
-            if(answer.toLowerCase() === "yes"){
+          if(warrior.mana >= warrior.specialMana){
+            let answer = window.prompt(`Do you want to use your special attack✨ ? \n • yes ?`)
+            if(answer.toLowerCase() == "yes"){
               victim.takeDamage((warrior.dmg + warrior.specialDmg));
               warrior.dealSpecialAttack(victim);
             } else {
               victim.takeDamage(warrior.dmg);
               warrior.dealDamage(victim);
             }
+          } else {
+            victim.takeDamage(warrior.dmg);
+            warrior.dealDamage(victim);
           }
         }
       }

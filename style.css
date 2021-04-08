@@ -41,12 +41,13 @@ body, html {
 .bg{
   background-color: rgba(0, 0, 0, 1);
   margin-right: 10px;
+  margin-top: 10px;
   text-align: center;
 }
 
 .btn{
   text-align: center;
-  margin: 40px;
+  margin: 100px 50px 50px 50px;
   padding: 10px;
   width: 250px;
   cursor: pointer;
@@ -70,4 +71,14 @@ body, html {
   font-size: 1em;
   text-align: center;
   font-style: italic;
+}
+
+.special{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.nameClass{
+  font-size: 1.2em;
+  font-weight: bold;
 }
