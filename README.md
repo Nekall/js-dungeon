@@ -1,16 +1,16 @@
-#JavaScript Dungeon
-
-**How does the game play ?**
-
-There are 5 rounds, in each round you must give instructions to each character. 
-Either attack with the basic attack.
-Or attack with the special attack of the character.
-Or take a suspicious potion. 
-
-The suspicious potion is a potion with random effects on the damage points and the life points of the character who drinks it. 
-Taking this potion uses one turn.
+#JavaScript Dungeon<br>
 <br>
-**Il y a 7 personnages différents : **<br>
+**How does the game play ?**<br>
+<br>
+There are 5 rounds, in each round you must give instructions to each character. <br>
+Either attack with the basic attack.<br>
+Or attack with the special attack of the character.<br>
+Or take a suspicious potion. <br>
+<br>
+The suspicious potion is a potion with random effects on the damage points and the life points of the character who drinks it. <br>
+Taking this potion uses one turn.<br>
+<br>
+**There are 7 different characters: **<br>
 <br>
 🙏 Monk<br>
 HP: 8<br>
@@ -21,7 +21,7 @@ Heal:<br>
   1 damage<br>
   7 life points<br>
   cost: 25 mana<br>
-
+<br>
 🩹 Paladin<br>
 HP: 16<br>
 Mana: 160<br>
