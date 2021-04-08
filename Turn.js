@@ -5,7 +5,7 @@ class Turn extends Game {
 
   startTurn(){
     console.log(`It's turn ${game.turnLeft}`);
-    let arrayCharacters = ["grace", "carl", "ulder", "moana", "draven"];
+    let arrayCharacters = ["grace", "carl", "ulder", "moana", "draven", "arcacir", "deusleo"];
     arrayCharacters.forEach((warrior) => {
       warrior = eval(warrior);
       if(warrior.status != "dead"){
@@ -13,7 +13,7 @@ class Turn extends Game {
         let victim;
         let potion;
         while (typeof victim == "undefined" || !arrayCharacters.includes(victim) || eval(victim) == warrior || eval(victim).status == "dead"){
-          victim = window.prompt(`What is your target ? \n • grace \n • carl \n • ulder \n • moana \n • draven \n\n Or you can choose to drink a suspicious potion: 🧪 \n • potion`)
+          victim = window.prompt(`What is your target ? \n • grace \n • carl \n • ulder \n • moana \n • draven \n • arcacir \n • deusleo \n\n Or you can choose to drink a suspicious potion: 🧪 \n • potion`)
           if(victim == "potion"){
             potion = true;
             break;

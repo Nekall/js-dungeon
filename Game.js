@@ -17,7 +17,7 @@ class Game {
 
     watchStats(){
       console.log("――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――");
-      let arrayCharacters = [grace, carl, ulder, moana, draven];
+      let arrayCharacters = [grace, carl, ulder, moana, draven, arcacir, deusleo];
       arrayCharacters.forEach((warrior) => {
         console.log(`[${warrior.status}]${warrior.name} (${warrior.nameClass}) currently has ${warrior.hp} life points, ${warrior.mana} mana points, ${warrior.dmg} damage points.`);
       });

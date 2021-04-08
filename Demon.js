@@ -4,6 +4,6 @@ class Demon extends Character {
     this.specialMana = 20;
     this.specialDmg = 0;
     this.specialHp = 0;
-    this.nameClass = "demon 🩹";
+    this.nameClass = "demon 😈";
   }
 }

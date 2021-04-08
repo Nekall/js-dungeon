@@ -4,6 +4,6 @@ class Wizard extends Character {
     this.specialMana = 25;
     this.specialDmg = 7;
     this.specialHp = 0;
-    this.nameClass = "demon 🩹";
+    this.nameClass = "wizard 🧙";
   }
 }

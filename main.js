@@ -5,6 +5,8 @@ const carl = new Assassin();
 const draven = new Berzerker();
 const moana = new Monk();
 const ulder = new Paladin();
+const arcacir = new Wizard();
+const deusleo = new Demon();
 
 
 Array.prototype.sample = function() {
@@ -13,7 +15,7 @@ Array.prototype.sample = function() {
 
 function finalMessage(){
   console.log("Winner is :");
-  let arrayCharacters = [grace, carl, ulder, moana, draven];
+  let arrayCharacters = [grace, carl, ulder, moana, draven, arcacir, deusleo];
   arrayCharacters.forEach((warrior) => {
     if(warrior.status == "winner"){
       console.log(warrior.name);
@@ -27,7 +29,7 @@ function startGame(){
   const turn = new Turn();
   while(true){
     if(game.turnLeft == 0){
-      let arrayCharacters = [grace, carl, ulder, moana, draven];
+      let arrayCharacters = [grace, carl, ulder, moana, draven, arcacir, deusleo];
       arrayCharacters.forEach((warrior) => {
         if(warrior.status == "playing"){
           warrior.status = "winner";
