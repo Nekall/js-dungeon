@@ -6,6 +6,7 @@ There are 5 rounds, in each round you must give instructions to each character. 
 Either attack with the basic attack.<br>
 Or attack with the special attack of the character.<br>
 Or take a suspicious potion. <br>
+The characters alive at the end are the winners!<br>
 <br>
 The suspicious potion is a potion with random effects on the damage points and the life points of the character who drinks it. <br>
 Taking this potion uses one turn.<br>
